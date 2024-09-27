@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical" data-boxed-layout="boxed">
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical">
 
 <head>
   <!-- Required meta tags -->
@@ -14,318 +14,113 @@
   <link rel="stylesheet" href="../assets/css/styles.css" />
 
   <title>Flexy Bootstrap Admin</title>
-
+  <!-- Owl Carousel  -->
+  <link rel="stylesheet" href="../assets/libs/aos/dist/aos.css" />
   <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
 </head>
 
 <body>
-  <!-- ============================================================== -->
-  <!-- Main wrapper - style you can find in pages.scss -->
-  <!-- ============================================================== -->
-  <div id="main-wrapper">
-    <!-- ============================================================== -->
-    <!-- End Topbar header -->
-    <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- Left Sidebar - style you can find in sidebar.scss  -->
-    <!-- ============================================================== -->
-    <!--Desktop view sidebar menu-->
-    <aside class="left-sidebar with-vertical">
-      <!-- Sidebar scroll-->
-      <!-- ============================================================== -->
-      <!-- Logo -->
-      <!-- ============================================================== -->
-      <div class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4">
-        <a href="../index.html" class="text-nowrap logo-img">
-          <img src="../assets/images/logos/dark-logo.svg" class="dark-logo" alt="Logo-Dark" />
-        </a>
-        <a href="javascript:void(0)" class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none">
-          <i class="ti ti-x"></i>
-        </a>
-      </div>
-      <!-- ============================================================== -->
-      <!-- End Logo -->
-      <!-- ============================================================== -->
-      <div class="scroll-sidebar" style="height: calc(100vh - 100px)" data-simplebar>
-        <!-- Sidebar navigation-->
-        <nav class="sidebar-nav">
-          <ul id="sidebarnav" class="">
-            <nav class="nav nav-pills flex-column sidebar-nav">
-              <ul class="list-unstyled">
-                <!--Getting Started-->
-                <li class="nav-small-cap">
-                  <span class="hide-menu">Getting Started</span>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="index.html">
-                    <i class="ti ti-home-2"></i> Introduction
-                  </a>
-                </li>
-                <!-- <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-structure.html">
-                    <i class="ti ti-packages"></i> Package Structure
-                  </a>
-                </li> -->
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-start.html">
-                    <i class="ti ti-brand-abstract"></i> Quick Start
-                  </a>
-                </li>
-                <!--CUSTOMIZATION-->
-                <li>
-                  <span class="sidebar-divider lg"></span>
-                </li>
-                <li class="nav-small-cap">
-                  <span class="hide-menu">Lesson content
-                  </span>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-program-struct.html">
-                    โครงสร้างของโปรแกรม
-
-                  </a>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-variables-and-types.html">
-                    ตัวแปรและประเภทข้อมูล
-
-                  </a>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-constants.html">
-                     ค่าคงที่
-
-
-                  </a>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-typography.html">
-                   ตัวดำเนินการ
-
-                  </a>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-input-output.html">
-                    อินพุต เอาต์พุต พื้นฐาน
-                  </a>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-if-else-statements.html">
-                    คำสั่ง if else
-
-                  </a>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-switch-case-statement.html">
-                   คำสั่ง switch case 
-
-                  </a>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-while-loop.html">
-                    คำสั่งวนซ้ำ while loop
-
-                  </a>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-for-loop.html">
-                  คำสั่งวนซ้ำ for loop
-
-                  </a>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-do-while-loop.html">
-                  คำสั่งวนซ้ำ do-while loop
-
-                  </a>
-                </li>
-                <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-break-and-continue.html">
-                    คำสั่ง break และ continue
-
-                  </a>
-                </li>
-                <!-- <li class="sidebar-item">
-                  <a class="nav-link sidebar-link d-flex align-items-center" href="docs-change-log.html">
-                    <i class="ti ti-refresh-dot"></i>Changelog
-                  </a>
-                </li> -->
-              </ul>
-            </nav>
-          </ul>
-        </nav>
-        <!-- End Sidebar navigation -->
-      </div>
-      <!-- End Sidebar scroll-->
-    </aside>
-
-    <!-- ============================================================== -->
-    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
-    <!-- ============================================================== -->
-    <div class="page-wrapper">
-      <!-- ============================================================== -->
-      <!-- Topbar header - style you can find in pages.scss -->
-      <!-- ============================================================== -->
-      <header class="topbar position-relative">
-        <div class="navbar navbar-header bg-white d-flex align-items-center justify-content-between p-3 fixed-top">
-          <!-- ============================================================== -->
-          <!-- Toggle which is visible on mobile only -->
-          <!-- ============================================================== -->
-          <!-- Logo icon -->
-          <a href="../index.html">
-            <b class="logo-icon d-xl-none d-block">
-              <!-- Dark Logo icon -->
-              <img src="../assets/images/logos/dark-logo.svg" alt="homepage" class="dark-logo" />
-            </b>
-            <!--End Logo icon -->
-          </a>
-          <div class="d-flex align-items-center">
-            <!---Mobile view canvas button--->
-            <a class="fs-8 text-muted d-xl-none d-block sidebartoggler" href="javascript:void(0)" role="button">
-              <i class="ti ti-menu-2"></i>
+  <!-- Preloader -->
+  <div class="preloader">
+    <img src="../assets/images/logos/preloader.svg" alt="loader" class="lds-ripple img-fluid" />
+  </div>
+  <div class="landingpage">
+    <div class="main-wrapper">
+      <header class="topheader py-3" id="top">
+        <div class="container">
+          <nav class="navbar navbar-expand-md navbar-light ps-0">
+            <!-- Logo will be here -->
+            <a class="navbar-brand" href="../landingpage/index.html">
+              <img src="../assets/images/logos/dark-logo.svg" alt="img-fluid" />
             </a>
-          </div>
+
+            <!--Toggle button-->
+            <button class="navbar-toggler navbar-toggler-right border-0 p-0 fs-8" type="button" data-bs-toggle="offcanvas" href="#right-sidebar">
+              <iconify-icon icon="solar:hamburger-menu-line-duotone"></iconify-icon>
+            </button>
+
+            <!-- This is the navigation menu -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto stylish-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../docs/index.html" target="_blank">Documentation</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </header>
-      <!-- ============================================================== -->
-      <!-- Page wrapper  -->
-      <!-- ============================================================== -->
-      <div class="body-wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" tabindex="0">
-        <!-- ============================================================== -->
-        <!-- Container fluid  -->
-        <!-- ============================================================== -->
-        <div class="container-fluid mt-2">
-          <div class="mt-1">
-              <img class="d-block mx-auto" src="../assets/images/bannerc.png" width="80%" height="80%" />
-              <h3 class="mt-4 lh-base">ภาษา C คืออะไร</h3>
-              <p>ภาษา C เป็นภาษาคอมพิวเตอร์เพื่อวัตถุประสงค์ทั่วไป เป็นภาษาที่มีความจำเป็นมาก มันสนับสนุนการเขียนโปรแกรมที่มีโครงสร้าง การกำหนดขอบเขตของตัวแปร และการเรียกใช้ตัวเอง (Recusion) และมันเป็นภาษาที่อยู่ในระดับต่ำ (Low level) นั่นคือ มันเป็นภาษาที่สามารถทำงานได้ดีในระดับของฮาร์ดแวร์ ภาษา C เป็นสามารถที่ออกแบบมาให้สามารถที่จะทำงานกับคำสั่งพื้นฐานของคอมพิวเตอร์ได้อย่างมีประสิทธิภาพ เพราะฉะนั้นมันจึงถูกพบบ่อยในการใช้สร้างแอพพลิเคชันในสมัยก่อนที่เขียนโดยภาษาแอสเซมบลี รวมถึงระบบประฏิบัติการ เช่นเดียวกันกับซอฟต์แวร์ประยุกต์สำหรับคอมพิวเตอร์ ซุปเปอร์คอมพิวเตอร์ และระบบฝังตัว</p>
-              <h3 class="mt-4 lh-base">ประวัติของภาษา C</h3>
-              <p className="">ภาษา C นั้นถูกพัฒนาครั้งแรกโดย Dennis Ritchie ในระหว่างปี 1969 และ 1973 ที่ Bell Labs และใช้สำหรับพัฒนาและปรับปรุงระบบปฏิการ Unix ใหม่ ตั้งแต่นั้นมันได้มาเป็นภาษาที่มีการใช้งานอย่างกว้างขวางมากที่สุดตลอดเวลา ที่มากับ C คอมไพเลอร์จากบริษัทพัฒนาต่างๆ สำหรับพัฒนาในสถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการที่ได้รับความนิยมเป็นจำนวนมาก ภาษา C ได้ถูกกำหนดมาตฐานโดย American National Standards Institute (ANSI) ตั้งแต่ปี 1989 และ International Organization for Standardization (ISO) ในเวลาต่อมา</p>
-              <img class="d-block " src="../assets/images/c.png" width="35%" height="35%" />
-              <p className="">โดยปกติแล้วโปรแกรมของผู้เริ่มต้นเป็นโปรแกรมที่เรียกว่า "Hello world" ซึ่งจะแสดงคำว่า "Hello World!" ออกทางจอคอมพิวเตอร์ของคุณ มันเป็นโปรแกรมที่ง่ายที่สุดที่จะแสดงให้นักพัฒนามือใหม่ได้เห็น มาดูว่ามันเป็นอย่างไร</p>
-              <p className="">ถึงแม้ว่าภาษา C มีความสามารถใน Low-level แต่มันยังถูกออกแบบเพื่อช่วยให้สามารถเขียนโปรแกรมแบบ Cross-platform โค้ดของโปรแกรมที่เขียนขึ้นจากมาตรฐานของภาษา C นั้นสามารถนำไปคอมไพล์ได้ในคอมพิวเตอร์ในแพลตฟอร์มและระบบปฏิบัติการที่หลากหลายโดยเพียงแค่เปลี่ยนแปลงโค้ดเพียงเล็กน้อย ภาษา C นั้นสามารถใช้ได้อย่างกว้างขวางในแพลตฟอร์มขนาดต่างๆ ตั้งแต่ Embedded microcontrollers ไปจนถึง Supercomputer</p>
-              <h3 class="mt-4 lh-base">คอมไพเลอร์</h3>
-              <p className="">คอมไพเลอร์เป็นโปรแกรมคอมพิวเตอร์ ที่แปลงโค้ดที่เขียนในภาษาคอมพิวเตอร์ อย่างเช่น ภาษา C ไปเป็นภาษาเครื่อง ซึ่งมันเป็นภาษาที่ทำให้คอมพิวเตอร์สามารถอ่านและทำงานได้ ซึ่งภาษาเครื่องนั้นจะมีรูปแบบในตัวเลขฐานสอง ที่ประกอบไปด้วย 1 และ 0 เท่านั้น ซึ่งเรียกว่าออบเจ็คโค้ด เหตุผลที่ต้องทำการแปลงก็เพื่อทำโปรแกรมให้สามารทำงานได้ (Executable program)</p>
-              <p className="">คอมไพเลอร์นั้นมีประโยชน์มากสำหรับนักเขียนโปรแกรม เพราะว่ามันช่วยให้พวกเขาสามารถพัฒนาโปรแกรมได้อย่าง่ายดายโดยที่ไม่ต้องสร้างคอมไพเลอร์ด้วยตัวเอง คอมไพล์เลอร์มักจะมาพร้อมกับเครื่องมือพัฒนาโปรแกรม Integrated development environment (IDE) ซึ่งประกอบไปด้วย Text editor คอมไพเลอร์ และเครื่องมืออำนวยความสะดวกอื่นๆ มากมาย</p>
-              <h3 class="mt-4 lh-base">เครื่องมือพัฒนาสำหรับภาษา C</h3>
-              <p className="">ในการที่จะเขียนโปรแกรมในภาษา C คุณต้องการ IDE เพื่อช่วยในการพัฒนาโปรแกรมของคุณ IDE เป็นโปรแกรมที่รวบรวมเครื่องมือที่จำเป็นในการพัฒนา มันเป็นซอฟแวร์ประยุกต์ที่อำนวยความสะดวกเป็นอย่างมากสำหรับนักเขียนโปรแกรมคอมพิวเตอร์และนักพัฒนาซอฟแวร์สำหรับการพัฒนาโปรแกรม โดยปกติแล้ว IDE จะประกอบไปด้วยโปรแกรมแก้ไขข้อความ ตัวดีบักโปรแกรม และอื่นๆ</p>
-              <p className="">IDE สามารถเป็นโปรแกรมแก้ไขข้อความใดๆ เช่น Notepad แต่ในบทเรียนภาษา C นี้ เราจะแนะนำให้คุณใช้ Code Block ในการเขียน เพราะมันมีคุณสมบัติหลายอย่างที่สนับสนุนภาษา C มันฟรีและสามารถใช้ได้บนแพลตฟอร์มต่างๆ เช่น Windows Linux และ MacOS ซึ่งมากับคอมไพเลอร์ GCC</p>
 
+      <!-- mobile sidebar -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="right-sidebar" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menus</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav stylish-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="introduction.html" target="_blank">Documentation</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <!-- start banner -->
+      <section class="hero-section position-relative overflow-hidden mb-0 mb-lg-5">
+        <div class="container" style="margin-top: 150px;">
+          <div class="row align-items-center">
+            <div class="col-xl-6">
+              <div class="hero-content my-5 my-xl-0">
+                <h6 class="d-flex align-items-center gap-2 fs-4 fw-semibold mb-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                  <i class="ti ti-rocket fs-6"></i>Kick start
+                  your project with
+                </h6>
+                <h1 class="fw-bolder mb-7 fs-13" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                  Easy to Customize
+                  <span class="text-primary"> Admin Dashboard</span>
+                </h1>
+                <p class="fs-5 mb-5 text-dark fw-normal w-85" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                  Flexy Admin comes with light & dark color skins, well designed
+                  dashboards, applications and pages.
+                </p>
+                <div class="d-sm-flex align-items-center gap-3" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                  <a class="btn btn-outline-primary d-block scroll-link px-7 py-6" href="introduction.html">Get start</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="hero-content my-5 my-xl-0">
+                <pre class="language-c" ><code class="language-c">#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}</code></pre>
+              </div>
+            </div>
           </div>
-      </div>
-        <!-- ============================================================== -->
-        <!-- End Container fluid  -->
-        <!-- ============================================================== -->
-      </div>
-      <!-- ============================================================== -->
-      <!-- End Page wrapper  -->
-      <!-- ============================================================== -->
+        </div>
+      </section>
     </div>
   </div>
   <div class="dark-transparent sidebartoggler"></div>
-  <!-- ============================================================== -->
-  <!-- End Wrapper -->
-  <!-- ============================================================== -->
-  <!-- End Page -->
-  <!-- ============================================================== -->
-  <!-- All Jquery -->
-  <!-- ============================================================== -->
-  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/js/vendor.min.js"></script>
+  <!-- Import Js Files -->
   <script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+  <script src="../assets/js/theme/app.init.js"></script>
+  <script src="../assets/js/theme/theme.js"></script>
+  <script src="../assets/js/theme/app.min.js"></script>
 
-  <script>
-  function handleSidebar() {
-    document.querySelectorAll(".sidebartoggler").forEach(function (element) {
-      element.addEventListener("click", function () {
-        document.querySelectorAll(".sidebartoggler").forEach(function (el) {
-          el.checked = true;
-        });
-        document
-          .getElementById("main-wrapper")
-          .classList.toggle("show-sidebar");
-        document.querySelectorAll(".sidebarmenu").forEach(function (el) {
-          el.classList.toggle("close");
-        });
-        var dataTheme = document.body.getAttribute("data-sidebartype");
-        if (dataTheme === "full") {
-          document.body.setAttribute("data-sidebartype", "mini-sidebar");
-        } else {
-          document.body.setAttribute("data-sidebartype", "full");
-        }
-      });
-    });
-  }
-
-  handleSidebar();
-
-  function findMatchingElement() {
-    var currentUrl = window.location.href;
-    var anchors = document.querySelectorAll("#sidebarnav a");
-    for (var i = 0; i < anchors.length; i++) {
-      if (anchors[i].href === currentUrl) {
-        return anchors[i];
-      }
-    }
-
-    return null; // Return null if no matching element is found
-  }
-  var elements = findMatchingElement();
-
-  // Do something with the matching element
-  if (elements) {
-    elements.classList.add("active");
-  }
-
-  document
-    .querySelectorAll("ul#sidebarnav ul li a.active")
-    .forEach(function (link) {
-      link.closest("ul").classList.add("in");
-      link.closest("ul").parentElement.classList.add("selected");
-    });
-
-  document.querySelectorAll("#sidebarnav li").forEach(function (li) {
-    const isActive = li.classList.contains("selected");
-    if (isActive) {
-      const anchor = li.querySelector("a");
-      if (anchor) {
-        anchor.classList.add("active");
-      }
-    }
-  });
-
-  document.querySelectorAll("#sidebarnav a").forEach(function (link) {
-    link.addEventListener("click", function (e) {
-      const isActive = this.classList.contains("active");
-      const parentUl = this.closest("ul");
-      if (!isActive) {
-        // hide any open menus and remove all other classes
-        parentUl.querySelectorAll("ul").forEach(function (submenu) {
-          submenu.classList.remove("in");
-        });
-        parentUl.querySelectorAll("a").forEach(function (navLink) {
-          navLink.classList.remove("active");
-        });
-
-        // open our new menu and add the open class
-        const submenu = this.nextElementSibling;
-        if (submenu) {
-          submenu.classList.add("in");
-        }
-
-        this.classList.add("active");
-      } else {
-        this.classList.remove("active");
-        parentUl.classList.remove("active");
-        const submenu = this.nextElementSibling;
-        if (submenu) {
-          submenu.classList.remove("in");
-        }
-      }
-    });
-  });
-</script>
-  <script src="../assets/libs/prismjs/prism.js"></script>
-  <!-- End JS -->
+  <!-- solar icons -->
+  <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-c.min.js"></script>
+  <script src="../assets/libs/aos/dist/aos.js"></script>
+  <script src="../assets/js/landingpage/landingpage.js"></script>
 </body>
 
 </html>
